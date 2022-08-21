@@ -1,0 +1,46 @@
+{
+    "libraries": [
+        {
+            "title": "AuraCSS",
+            "description": "A CSS Framework to build responsive Websites and Apps. Used for all our sites and apps.",
+            "image": "/img/auracss.png",
+            "link" : {
+                "url": "https://auracss.atherdev.nl",
+                "title": "",
+                "icon": ""
+            }
+        }
+    ],
+    "projects": [
+        {
+            "title": "Starbase Market Services",
+            "description": "Starbase Market Data, available to all!",
+            "image": "/img/starbase.png",
+            "link" : {
+                "url": "https://starbase.atherdev.nl",
+                "title": "View on Github",
+                "icon": "<i class='bx bxl-github' ></i>"
+            }
+        },
+        {
+            "title" : "AtherActive - EVE Tools",
+            "description" : "A collection of tools for EVE Online.",
+            "image": "/img/eve.png",
+            "link" : {
+                "url": "https://eve.atherdev.nl",
+                "title": "Click to visit",
+                "icon": "<i class='bx bx-link' ></i>"
+            }
+        },
+        {
+            "title" : "[deprecated] CSS Packer",
+            "description" : "Bundle a bunch of CSS files into one!",
+            "image": "/img/csspacker.png",
+            "link" : {
+                "url": "https://github.com/AtherActive/csspacker",
+                "title": "View on Github",
+                "icon": "<i class='bx bxl-github' ></i>"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+/* COLORS */
+/* COMPONENTS */
+.featurebox {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem; }
+  .featurebox .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    width: 20%; }
+    @media screen and (max-width: 320px) {
+      .featurebox .feature {
+        width: 100%; } }
+    @media screen and (max-width: 576px) {
+      .featurebox .feature {
+        width: 100%; } }
+    @media screen and (max-width: 768px) {
+      .featurebox .feature {
+        width: 100%; } }
+    @media screen and (max-width: 992px) {
+      .featurebox .feature {
+        width: 100%; } }
+    @media screen and (max-width: 1200px) {
+      .featurebox .feature {
+        width: 100%; } }
+    .featurebox .feature img {
+      width: 14rem; }
+    .featurebox .feature i.bx {
+      width: 14rem;
+      font-size: 14rem; }
+    .featurebox .feature hr {
+      border: none;
+      border-top: 0.15rem solid #464646;
+      border-radius: 0.2rem;
+      width: 95%; }
+    .featurebox .feature h1, .featurebox .feature h2, .featurebox .feature h3, .featurebox .feature h4, .featurebox .feature h5, .featurebox .feature h6 {
+      text-align: center; }
+    .featurebox .feature p {
+      text-align: center;
+      font-size: 1.2rem; }

@@ -1,0 +1,7 @@
+@import '../util/vars.scss';
+
+article,
+section {
+    margin: $article-margin 0;
+    padding: 0;
+}

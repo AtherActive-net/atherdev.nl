@@ -1,0 +1,58 @@
+@import '../util/vars.scss';
+
+.card {
+    margin: .2rem;
+    height: max-content;
+
+    img {
+        background-size: cover;
+    }
+    &.overlay {
+        .card-content {
+            background-color: rgba(0,0,0,0.6);
+        }
+    }
+}
+
+[class^='col-']>.card {
+    margin: 0.5rem;
+}
+
+.nav-top>ul>li {
+    
+    >ul {
+        padding: 1rem 0 1rem 0;
+        width: 14rem;
+        left: -2rem;
+        border-radius: 0 0 $border-radius $border-radius;
+        
+        >li{
+            height: 2rem;
+            padding-left: 1rem;
+            min-width: 10rem;
+            width: 100%;
+            a {
+                font-size: 1rem;
+                justify-content: flex-start;
+            }      
+        }
+    }
+
+    &:hover>ul {
+        gap: .8rem;
+    }
+
+}
+
+.hide-on-mobile {
+    @media screen and (max-width: map-get($sizes,$key:"xl")) {
+        display: none;
+    }
+}
+
+// Hide oon anything ABOVE xl
+.hide-on-desktop {
+    @media screen and (min-width: map-get($sizes,$key:"xl")) {
+        display: none;
+    }
+}

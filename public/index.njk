@@ -1,0 +1,80 @@
+{%extends "base.njk"%}
+{%block head%}
+<script src="/js/home.js"></script>
+{%endblock%}
+
+{% block body %}
+    <div class="container-12">
+        <article>
+            <div class="row flex-jc-center">
+                <div class="col-6 col-xl-10 col-m-11 flex-ai-center">
+                    <h1>Web Development, simplified.</h1>
+                    <hr class="color-theme">
+                    <div>
+                        <p>Listen, we all know the big frameworks. Think about React, Angular etc. And for CSS, you're looking at Bootstrap, Tailwind etc. The are all good for some things, but less for others..</p>
+                        <p class="pd-t-10">And we don't really like the bulk of them. So, we make our own solutions! We are building our own CSS framework from the ground up and working on a JS mini library that can turn any static website into a modern SPA!</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="bg-theme pd-t-4 pd-b-4">
+            <section>
+                <div class="row flex-jc-center">
+                    <div class="featurebox col-11">
+                        <div class="feature">
+                            <i class='bx bx-cube-alt' ></i>
+                        </div>
+                        <div class="col-4 col-xl-12 flex-jc-center">
+                            <h2>Simplicity</h2>
+                            <p>Web development has been made a mess by big frameworks. We believe that it should be kept relatively simple. Our frameworks/Libraries reflect this.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row flex-jc-center">
+                    <div class="featurebox col-11">
+                        <div class="col-4 flex-jc-center hide-on-mobile">
+                            <h2>Customizability</h2>
+                            <p>While we like simplicity, you should be able to customize anything to how you like it! Everything we ship comes with extensive config options and documentation to allow easy customization.</p>
+                        </div>
+                        <div class="feature">
+                            <i class='bx bx-brush' ></i>
+                        </div>
+                        <div class="col-12 flex-jc-center hide-on-desktop">
+                            <h2>Customizability</h2>
+                            <p>While we like simplicity, you should be able to customize anything to how you like it! Everything we ship comes with extensive config options and documentation to allow easy customization.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row flex-jc-center">
+                    <div class="featurebox col-11">
+                        <div class="feature">
+                            <i class='bx bx-bracket'></i>
+                        </div>
+                        <div class="col-4 col-xl-12 flex-jc-center">
+                            <h2>Integration</h2>
+                            <p>While it is fun to have options, if it is hard to use it does not matter. Luckily, we make it easy to integrate our solutions into your projects!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class=" bg-background-bright pd-t-4 pd-b-4">
+            <section>
+                <div class="row flex-jc-center">
+                    <h2>Libraries / Frameworks</h2>
+                </div>
+                <div class="row flex-jc-center" id="librarybox">
+                </div>
+                <div class="row flex-jc-center">
+                    <h2>Projects</h2>
+                </div>
+                <div class="row flex-jc-center" id="projectbox">
+                </div>
+            </section>
+        </div>
+    </div>
+{% endblock %}

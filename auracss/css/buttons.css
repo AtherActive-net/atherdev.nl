@@ -1,0 +1,42 @@
+/* COLORS */
+/* COMPONENTS */
+a {
+  color: #623CEA;
+  text-decoration: none;
+  position: relative;
+  width: max-content;
+  line-height: 1.6rem;
+  font-weight: 600; }
+  a:before {
+    content: '';
+    position: absolute;
+    border-bottom: .15rem solid;
+    width: 0%;
+    bottom: 0px;
+    transition: all 0.2s ease; }
+  a:hover:before {
+    transition: all 0.2s ease;
+    width: 100%; }
+  a.no-underline:before {
+    border-bottom: none; }
+  a.hv-underline-color-theme:before {
+    border-bottom-color: #623CEA; }
+  a.hv-underline-color-accent:before {
+    border-bottom-color: #623CEA; }
+  a.hv-underline-color-background:before {
+    border-bottom-color: #171A21; }
+  a.hv-underline-color-background-bright:before {
+    border-bottom-color: #1f232c; }
+
+button {
+  border: .2rem solid transparent;
+  border-radius: 0.2rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: .4rem;
+  font-weight: 600;
+  color: #623CEA; }
+  button:hover {
+    border: 0.2rem solid #623CEA;
+    border-radius: 0.4rem;
+    transition: all 0.2s ease; }
