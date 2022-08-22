@@ -17,7 +17,7 @@
             "title": "Starbase Market Services",
             "description": "Starbase Market Data, available to all!",
             "image": "/img/starbase.png",
-            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-python' ></i><i class='bx bxl-nodejs' ></i><i class='bx bx-data'></i><i class='bx bxl-docker' ></i>",
+            "tech" : "<img src='/svg/Ather_A_logo.svg' alt='AuraCSS Icon.'><i class='bx bxl-python' ></i><i class='bx bxl-nodejs' ></i><i class='bx bx-data'></i><i class='bx bxl-docker' ></i>",
             "link" : {
                 "url": "https://starbase.atherdev.nl",
                 "title": "View on Github",
@@ -25,10 +25,10 @@
             }
         },
         {
-            "title" : "AtherActive - EVE Tools",
-            "description" : "A collection of tools for EVE Online.",
+            "title" : "EVE - Wormhole Rolling",
+            "description" : "A wormhole rolling tool for EVE Online.",
             "image": "/img/eve.png",
-            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-nodejs' ></i><i class='bx bxl-html5' ></i>",
+            "tech" : "<img src='/svg/Ather_A_logo.svg' alt='AuraCSS Icon.'><i class='bx bxl-nodejs' ></i><i class='bx bxl-html5' ></i>",
             "link" : {
                 "url": "https://eve.atherdev.nl",
                 "title": "Click to visit",
@@ -63,7 +63,7 @@
             "title" : "Zeta",
             "description" : "Share updates about your projects! (discontinued)",
             "image": "/img/zeta.png",
-            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-nodejs' ></i><i class='bx bx-data'></i><i class='bx bxl-docker' ></i>",
+            "tech" : "<img src='/svg/Ather_A_logo.svg' alt='AuraCSS Icon.'><i class='bx bxl-nodejs' ></i><i class='bx bx-data'></i><i class='bx bxl-docker' ></i>",
             "link" : {
                 "url": "#",
                 "title": "",
@@ -74,7 +74,7 @@
             "title" : "Fiber",
             "description" : "Mod Sharing Made Easy! Tech demo for AuraCSS v1.0 (discontinued)",
             "image": "/img/fiber.png",
-            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-nodejs' ></i><i class='bx bxl-javascript' ></i><i class='bx bxl-html5' ></i><i class='bx bx-data' ></i>",
+            "tech" : "<img src='/svg/Ather_A_logo.svg' alt='AuraCSS Icon.'><i class='bx bxl-nodejs' ></i><i class='bx bxl-javascript' ></i><i class='bx bxl-html5' ></i><i class='bx bx-data' ></i>",
             "link" : {
                 "url": "#",
                 "title": "",
