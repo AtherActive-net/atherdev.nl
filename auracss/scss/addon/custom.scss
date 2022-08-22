@@ -25,6 +25,7 @@
         width: 14rem;
         left: -2rem;
         border-radius: 0 0 $border-radius $border-radius;
+        box-shadow: $basic-shadow;
         
         >li{
             height: 2rem;
@@ -54,5 +55,17 @@
 .hide-on-desktop {
     @media screen and (min-width: map-get($sizes,$key:"xl")) {
         display: none;
+    }
+}
+
+.project-tech {
+    i {
+        font-size: 1.4rem;
+        display: inline;
+    }
+    img {
+        width: 1.4rem;
+        height: 1.4rem;
+        display: inline;
     }
 }

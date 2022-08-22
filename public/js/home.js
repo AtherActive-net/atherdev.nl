@@ -3,10 +3,12 @@ const baseUrl = window.location.origin;
 async function loadProjects() {
     const libraryBox = document.querySelector('#librarybox');
     const projectBox = document.querySelector('#projectbox');
+    const demoBox = document.querySelector('#demobox');
     let projects = await fetchProjectData();
     console.log(projects)
     await renderProjects(libraryBox, await projects.libraries);
     await renderProjects(projectBox, await projects.projects);
+    await renderProjects(demoBox, await projects.demos);
 }
 
 
@@ -27,6 +29,7 @@ async function renderProjects(target, projects) {
         projectCard.querySelector('.project-description').innerHTML = project.description;
         projectCard.querySelector('.project-image').src = project.image;
         projectCard.querySelector('.project-link-text').innerHTML = `${project.link.icon} ${project.link.title}`;
+        projectCard.querySelector('.project-tech').innerHTML = project.tech;
         projectCard.querySelector('.project-link').href = project.link.url;
 
         target.appendChild(projectCard);

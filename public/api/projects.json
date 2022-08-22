@@ -4,6 +4,7 @@
             "title": "AuraCSS",
             "description": "A CSS Framework to build responsive Websites and Apps. Used for all our sites and apps.",
             "image": "/img/auracss.png",
+            "tech" : "<i class='bx bxl-sass' ></i><i class='bx bxl-css3' ></i>",
             "link" : {
                 "url": "https://auracss.atherdev.nl",
                 "title": "",
@@ -16,6 +17,7 @@
             "title": "Starbase Market Services",
             "description": "Starbase Market Data, available to all!",
             "image": "/img/starbase.png",
+            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-python' ></i><i class='bx bxl-nodejs' ></i><i class='bx bx-data'></i><i class='bx bxl-docker' ></i>",
             "link" : {
                 "url": "https://starbase.atherdev.nl",
                 "title": "View on Github",
@@ -26,6 +28,7 @@
             "title" : "AtherActive - EVE Tools",
             "description" : "A collection of tools for EVE Online.",
             "image": "/img/eve.png",
+            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-nodejs' ></i><i class='bx bxl-html5' ></i>",
             "link" : {
                 "url": "https://eve.atherdev.nl",
                 "title": "Click to visit",
@@ -36,11 +39,48 @@
             "title" : "[deprecated] CSS Packer",
             "description" : "Bundle a bunch of CSS files into one!",
             "image": "/img/csspacker.png",
+            "tech" : "<i class='bx bxl-python' ></i>",
             "link" : {
                 "url": "https://github.com/AtherActive/csspacker",
                 "title": "View on Github",
                 "icon": "<i class='bx bxl-github' ></i>"
             }
         }
+    ],
+    "demos" : [
+        {
+            "title" : "2D Space Shooter",
+            "description" : "A small 2D game where you fight enemy ships.",
+            "image": "/img/space-shooter.png",
+            "tech" : "<i class='bx bxl-unity' ></i>",
+            "link" : {
+                "url": "#",
+                "title": "",
+                "icon": ""
+            }   
+        },
+        {
+            "title" : "Zeta",
+            "description" : "Share updates about your projects! (discontinued)",
+            "image": "/img/zeta.png",
+            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-nodejs' ></i><i class='bx bx-data'></i><i class='bx bxl-docker' ></i>",
+            "link" : {
+                "url": "#",
+                "title": "",
+                "icon": ""
+            }   
+        },
+        {
+            "title" : "Fiber",
+            "description" : "Mod Sharing Made Easy! Tech demo for AuraCSS v1.0 (discontinued)",
+            "image": "/img/fiber.png",
+            "tech" : "<img src='/svg/Ather_A_logo.svg'><i class='bx bxl-nodejs' ></i><i class='bx bxl-javascript' ></i><i class='bx bxl-html5' ></i><i class='bx bx-data' ></i>",
+            "link" : {
+                "url": "#",
+                "title": "",
+                "icon": ""
+            }   
+        }
+
     ]
 }
