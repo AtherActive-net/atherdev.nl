@@ -5,7 +5,6 @@ async function loadProjects() {
     const projectBox = document.querySelector('#projectbox');
     const demoBox = document.querySelector('#demobox');
     let projects = await fetchProjectData();
-    console.log(projects)
     await renderProjects(libraryBox, await projects.libraries);
     await renderProjects(projectBox, await projects.projects);
     await renderProjects(demoBox, await projects.demos);
@@ -23,7 +22,6 @@ async function fetchProjectData() {
 async function renderProjects(target, projects) {
     const projectTemplate = await fetch(baseUrl+'/components/projectcard.html').then(response => response.text())
     projects.forEach(project => {
-        console.log(project)
         let projectCard = parseToHTML(projectTemplate);
         projectCard.querySelector('.project-title').innerHTML = project.title;
         projectCard.querySelector('.project-description').innerHTML = project.description;
