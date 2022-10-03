@@ -6,13 +6,35 @@
             "image": "/img/auracss.png",
             "tech" : "<i class='bx bxl-sass' ></i><i class='bx bxl-css3' ></i>",
             "link" : {
-                "url": "https://auracss.atherdev.nl",
-                "title": "",
-                "icon": ""
+                "url": "https://github.com/AtherActive/auracss",
+                "title": "View on Github",
+                "icon": "<i class='bx bxl-github' ></i>"
+            }
+        },
+        {
+            "title": "AtherJS",
+            "description": "Make any static site feel like a modern SPA. Includes state management, routing, and more.",
+            "image": "/img/atherjs.png",
+            "tech" : "<i class='bx bxl-javascript'></i>",
+            "link" : {
+                "url": "https://github.com/AtherActive-net/atherjs",
+                "title": "View on Github",
+                "icon": "<i class='bx bxl-github' ></i>"
             }
         }
     ],
     "projects": [
+        {
+            "title": "Note!t",
+            "description": "Got an idea? Note !t down! Note!t is a note taking website supporting Markdown.",
+            "image": "/img/noteit.png",
+            "tech" : "<img src='/svg/Ather_A_logo.svg' alt='AuraCSS Icon.'><i class='bx bxl-sass' ></i><i class='bx bxl-css3' ></i><i class='bx bxl-html5' ></i><i class='bx bxl-js' ></i><i class='bx bxl-nodejs' ></i></i><i class='bx bx-data'></i><i class='bx bxl-docker' ></i>",
+            "link" : {
+                "url": "https://noteit.atherdev.nl",
+                "title": "Check out Note!t here",
+                "icon": "<i class='bx bx-link' ></i>"
+            }
+        },
         {
             "title": "Starbase Market Services",
             "description": "Starbase Market Data, available to all!",
@@ -33,17 +55,6 @@
                 "url": "https://eve.atherdev.nl",
                 "title": "Click to visit",
                 "icon": "<i class='bx bx-link' ></i>"
-            }
-        },
-        {
-            "title" : "[deprecated] CSS Packer",
-            "description" : "Bundle a bunch of CSS files into one!",
-            "image": "/img/csspacker.png",
-            "tech" : "<i class='bx bxl-python' ></i>",
-            "link" : {
-                "url": "https://github.com/AtherActive/csspacker",
-                "title": "View on Github",
-                "icon": "<i class='bx bxl-github' ></i>"
             }
         }
     ],
@@ -80,6 +91,17 @@
                 "title": "",
                 "icon": ""
             }   
+        },
+        {
+            "title" : "[deprecated] CSS Packer",
+            "description" : "Bundle a bunch of CSS files into one!",
+            "image": "/img/csspacker.png",
+            "tech" : "<i class='bx bxl-python' ></i>",
+            "link" : {
+                "url": "https://github.com/AtherActive/csspacker",
+                "title": "View on Github",
+                "icon": "<i class='bx bxl-github' ></i>"
+            }
         }
 
     ]
