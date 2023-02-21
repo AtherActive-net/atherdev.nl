@@ -8,7 +8,7 @@ require('dotenv').config();
 const routers = [];
 const sessionManager = require('./modules/sessionManager');
 const app = express();
-const port = process.env.SERVER_PORT;
+const port = 3050; 
 
 app.use(session(sessionManager.sess));
 app.use(express.static('./public'));
