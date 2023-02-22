@@ -16,4 +16,4 @@ jobs:
       - run: git clone https://github.com/AtherActive-net/deploy-client.git
       - run: cd ./deploy-client
       - run: npm i
-      - run: npm run deploy
+      - run: node dist/app.js $PROJECT main $REPOCLONEURL $TOKEN "{}"
