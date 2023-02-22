@@ -17,4 +17,4 @@ jobs:
       - run: |
           cd deploy-client
           npm i
-          node dist/app.js $PROJECT main $REPOCLONEURL $TOKEN "{}"
+          node dist/app.js {{$PROJECT}} main {{$REPOCLONEURL}} {{$TOKEN}} "{}"
