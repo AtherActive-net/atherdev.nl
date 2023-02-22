@@ -13,8 +13,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - run: git clone https://github.com/AtherActive-net/deploy-client.git
       - run: |
+          git clone https://github.com/AtherActive-net/deploy-client.git
           cd deploy-client
           npm i
-      - run: node dist/app.js ${{ vars.PROJECT }} main ${{ vars.REPOCLONEURL }} ${{ vars.TOKEN }} "{}"
+          node dist/app.js ${{ vars.PROJECT }} main ${{ vars.REPOCLONEURL }} ${{ vars.TOKEN }} "{}"
