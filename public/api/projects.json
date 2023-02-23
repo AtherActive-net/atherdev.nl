@@ -91,17 +91,6 @@
                 "title": "",
                 "icon": ""
             }   
-        },
-        {
-            "title" : "[deprecated] CSS Packer",
-            "description" : "Bundle a bunch of CSS files into one!",
-            "image": "/img/csspacker.png",
-            "tech" : "<i class='bx bxl-python' ></i>",
-            "link" : {
-                "url": "https://github.com/AtherActive/csspacker",
-                "title": "View on Github",
-                "icon": "<i class='bx bxl-github' ></i>"
-            }
         }
 
     ]
