@@ -13,6 +13,7 @@ jobs:
       REPOCLONEURL: ${{ vars.REPOCLONEURL }}
       TOKEN: ${{ secrets.TOKEN }}
       ENV: "{}"
+      URL: https://deploy.ather.nl/api/v1/deploy
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js 16.x
