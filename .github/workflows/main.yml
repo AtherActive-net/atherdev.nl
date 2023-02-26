@@ -7,6 +7,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      PROJECT: ${{ vars.PROJECT}}
+      BRANCH: main
+      REPOCLONEURL: ${{ vars.REPOCLONEURL }}
+      TOKEN: ${{ secrets.TOKEN }}
+      ENV: "{}"
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js 16.x
@@ -17,4 +23,4 @@ jobs:
           git clone https://github.com/AtherActive-net/deploy-client.git
           cd deploy-client
           npm i
-          node dist/app.js ${{ vars.PROJECT }} main ${{ vars.REPOCLONEURL }} ${{ secrets.TOKEN }} "{}"
+          node dist/app.js
