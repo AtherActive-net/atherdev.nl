@@ -1,4 +1,4 @@
-# Basic Templater
+# Atherdev.nl
 This template is used to create Static websites. While it does have session storage, it lacks any authentication and generally is only a base.
 
 ## Included
