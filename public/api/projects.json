@@ -21,6 +21,17 @@
                 "title": "View on Github",
                 "icon": "<i class='bx bxl-github' ></i>"
             }
+        },
+        {
+            "title": "gnpm",
+            "description": "A Node package manager to allow installation of packages in a central location for your projects",
+            "image": "/img/gnpm.png",
+            "tech" : "<i class='bx bxl-javascript'></i>",
+            "link" : {
+                "url": "https://github.com/AtherActive-net/gnpm",
+                "title": "View on Github",
+                "icon": "<i class='bx bxl-github' ></i>"
+            }
         }
     ],
     "projects": [
